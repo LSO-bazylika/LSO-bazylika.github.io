@@ -464,3 +464,103 @@ text-align: justify;
     }
 
 }
+
+.formulaz {
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.formm {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 5px solid #333333;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.labell {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.tytolformm {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#dane {
+    margin: 5px;
+    background: none;
+    font-size: 20px;
+    width: 90%;
+    height: 5vh;
+    color: white;
+}
+
+
+#tel {
+    margin: 5px;
+    background: none;
+    font-size: 20px;
+    width: 90%;
+    height: 5vh;
+    color: white;
+}
+
+
+#msg {
+    margin: 5px;
+    background: none;
+    font-size: 20px;
+    width: 90%;
+    height: 30vh;
+    color: white;
+    text-align: left;
+    align-items: start;
+}
+
+.pzycisk0 {
+    width: 30%;
+    height: 5vh;
+    margin: 40px 0px 10px 0px;
+    background-color: #666666;
+    border-color: #333333;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 100px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-width: 3px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.pzycisk0:hover {
+    background-color: #333333;
+}
+
+@media (max-width: 1100px) {
+    .formulaz {
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .formulaz {
+        width: 90%;
+    }
+}
