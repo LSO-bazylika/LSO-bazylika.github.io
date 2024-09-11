@@ -94,6 +94,7 @@
         name="msg"
         rows="5"
         placeholder="Wpisz treść wiadomości"></textarea><br>
+	</div>
         </form>
 
         <input name="_formsubmit_id" type="text" style="display:none">
@@ -101,25 +102,26 @@
         <button class="pzycisk0" value="Wyślij" type="submit" >Wyślij</button>
     </form>
 
-	 <form action="https://formcarry.com/s/ArNQxuT9BkT" method="POST" enctype="multipart/form-data">
-    
+	 <form class="formulaz" action="https://formcarry.com/s/ArNQxuT9BkT" method="POST" enctype="multipart/form-data">
+    <div class="formm">
     <div class="formcarry-block">
-      <label for="fc-generated-1-name">Full Name</label>
-      <input type="text" name="name" id="fc-generated-1-name" placeholder="Your first and last name" />
+      <label class="labell" for="fc-generated-1-name">Imię Nazwisko</label>
+      <input type="text" name="dane" id="dane" placeholder="Podaj swoje Imię i Nazwisko" />
     </div>
   	
     <div class="formcarry-block">
-      <label for="fc-generated-1-email">Your Email Address</label>
-      <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
+      <label class="labell" for="fc-generated-1-email">Numer Telefonu</label>
+      <input type="tel" name="tel" id="tel" placeholder="Podaj swój numer telefonu" />
     </div>
   	
     <div class="formcarry-block">
-      <label for="fc-generated-1-message">Your message</label>
-      <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Enter your message..."></textarea>
+      <label for="fc-generated-1-message">Twoja Wiadomość</label>
+      <textarea class="labell" name="msg" name="msg" id="msg" placeholder="Twoja wiadomość..."></textarea>
     </div>
   	
     <div class="formcarry-block">  
-      <button type="submit">Send</button>
+      <button type="submit">Wyślij</button>
+    </div>
     </div>
   
   </form>
