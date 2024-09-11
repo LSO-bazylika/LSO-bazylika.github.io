@@ -564,3 +564,19 @@ text-align: justify;
         width: 90%;
     }
 }
+
+#telefonyy {
+	width: 50%;
+}
+
+@media (max-width: 1100px) {
+    #telefonyy {
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    #telefonyy {
+        width: 90%;
+    }
+}
