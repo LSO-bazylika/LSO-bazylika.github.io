@@ -671,6 +671,11 @@ text-align: justify;
     color: #fff; /* Możesz zmienić na inny kolor, jeśli chcesz efekt zmiany koloru */
 }
 
+.tak2 {
+    font-weight: bold;
+}
 
 
-
+.tak3 {
+    font-size: 25px;
+}
