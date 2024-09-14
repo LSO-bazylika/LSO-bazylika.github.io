@@ -55,7 +55,7 @@ ul.active {
     transition: .3s ease-in-out;
 }
 
-a {
+.tak {
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
@@ -64,7 +64,7 @@ a {
     color: white;
 }
 
-a::after {
+.tak::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -76,11 +76,11 @@ a::after {
     transition: .3s ease-in-out;
 }
 
-a:hover {
+.tak:hover {
     color: #8893aa;
 }
 
-a:hover::after {
+.tak:hover::after {
     width: 100%;
 }
 
@@ -565,22 +565,112 @@ text-align: justify;
     }
 }
 
-#telefonyy {
-	width: 50%;
-	text-align: center;
-        justify-content: center;
-        align-items: center;
-	margin: 20px 10px 40px 10px auto;
+.telefonyy {
+	border: 5px solid #333333;
+    border-radius: 30px;
+    padding: 20px;
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    transform: translateY(-35px);
+}
+
+.p2 {
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    transform: translateY(-35px);
 }
 
 @media (max-width: 1100px) {
-    #telefonyy {
+    .telefonyy {
         width: 80%;
     }
 }
 
 @media (max-width: 450px) {
-    #telefonyy {
+    .telefonyy {
         width: 90%;
     }
 }
+
+
+.footer {
+    background-color: #202020;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.lso {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.photo8 {
+    border-radius: 10px;
+}
+
+.footer-section {
+    width: 30%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer-section h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-section img {
+    max-width: 50px;
+    margin: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.footer-section a:hover {
+    color: #fff; /* Kolor bez zmian po najechaniu */
+    text-decoration: none; /* Brak podkreślenia na hover */
+}
+
+.footer-section a:not(:hover) {
+    color: #fff; /* Kolor bez zmian po najechaniu */
+    text-decoration: none; /* Brak podkreślenia na hover */
+}
+
+.footer-section a:hover::after {
+    width: 0; /* Brak animacji podkreślenia */
+    transition: none; /* Wyłączenie animacji */
+}
+
+
+.znak {
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+    text-decoration: none; /* Usunięcie podkreślenia */
+    color: #fff;
+}
+
+.znak:hover {
+    text-decoration: none; /* Brak podkreślenia po najechaniu */
+    color: #fff; /* Możesz zmienić na inny kolor, jeśli chcesz efekt zmiany koloru */
+}
+
+
+
+
