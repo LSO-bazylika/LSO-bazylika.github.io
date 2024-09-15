@@ -610,6 +610,7 @@ text-align: justify;
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    width: 100%;
 }
 
 .lso {
@@ -678,4 +679,8 @@ text-align: justify;
 
 .tak3 {
     font-size: 25px;
+}
+
+.active {
+    height: 100%;
 }
