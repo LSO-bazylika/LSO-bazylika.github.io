@@ -1,3 +1,5 @@
+
+
 /* Ogólne */
 body {
     background-color: #666666;
@@ -599,19 +601,12 @@ text-align: justify;
 
 @media (max-width: 450px) {
     .telefonyy {
-        width: 90%;
+        width: 80%;
     }
 }
 
 
-.footer {
-    background-color: #202020;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    width: 100%;
-}
+
 
 .lso {
     font-size: 15px;
@@ -622,15 +617,22 @@ text-align: justify;
     border-radius: 10px;
 }
 
+/* Stopka */
+.footer {
+    background-color: #202020;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0; /* Stopka nie rozciąga się */
+}
+
 .footer-section {
     width: 30%;
     text-align: center;
     font-size: 30px;
-}
-
-.footer-section h3 {
-    font-weight: bold;
-    margin-bottom: 15px;
 }
 
 .footer-section img {
@@ -640,47 +642,53 @@ text-align: justify;
 
 .footer-section a {
     color: #fff;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .footer-section a:hover {
-    color: #fff; /* Kolor bez zmian po najechaniu */
-    text-decoration: none; /* Brak podkreślenia na hover */
-}
-
-.footer-section a:not(:hover) {
-    color: #fff; /* Kolor bez zmian po najechaniu */
-    text-decoration: none; /* Brak podkreślenia na hover */
-}
-
-.footer-section a:hover::after {
-    width: 0; /* Brak animacji podkreślenia */
-    transition: none; /* Wyłączenie animacji */
-}
-
-
-.znak {
-    padding: 10px;
-    margin: 5px;
-    font-size: 30px;
-    text-decoration: none; /* Usunięcie podkreślenia */
     color: #fff;
+    text-decoration: none;
 }
 
-.znak:hover {
-    text-decoration: none; /* Brak podkreślenia po najechaniu */
-    color: #fff; /* Możesz zmienić na inny kolor, jeśli chcesz efekt zmiany koloru */
+@media (max-width: 440px) {
+    .footer-section {
+        width: 30%;
+        text-align: center;
+        font-size: 20px;
+    }
+
 }
 
-.tak2 {
-    font-weight: bold;
+@media (max-width: 330px) {
+    .footer-section {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
 }
 
-
-.tak3 {
-    font-size: 25px;
+@media (max-width: 530px) {
+    .pzycisk0 {
+        font-size: 20px;
+        padding: 10px;;
+    }
 }
 
-.active {
-    height: 100%;
+@media (max-width: 400px) {
+    .pzycisk0 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .pzycisk0 {
+        font-size: 10px;
+    }
 }
