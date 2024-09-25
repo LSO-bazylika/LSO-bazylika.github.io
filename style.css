@@ -696,3 +696,13 @@ text-align: justify;
         font-size: 10px;
     }
 }
+
+.tak4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.test {
+    z-index: 3;
+}
