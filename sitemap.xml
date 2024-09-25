@@ -9,52 +9,62 @@
 
 <url>
   <loc>https://lsobazylika.pl/</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/index.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsobazylika.pl/regulamin.html</loc>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/aktualnosci.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/punkty-ministranci.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/punkty-lektorzy.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/sluzenie-ministranci.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/slozenie-lektorzy.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/kontakt.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/Patroni.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lsobazylika.pl/Modlitwy.html</loc>
-  <lastmod>2024-09-20T19:31:30+00:00</lastmod>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lsobazylika.pl/zmiany.html</loc>
+  <lastmod>2024-09-25T17:47:49+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
