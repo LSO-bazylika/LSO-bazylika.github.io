@@ -7,16 +7,6 @@
     }
 }
 
-@keyframes tytol2 {
-    from {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(-100%);
-    }
-}
 
 /* Ogólne */
 body {
@@ -32,28 +22,7 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
-.poczatek {
-    z-index: 100000;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    position: absolute;
-    background-color: #a4a3a3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: tytol2 2s forwards;
-    animation-delay: 2s;
-    
-}
 
-.poczatekzdj {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20%;
-    
-}
 
 /* Menu */
 .logo {
@@ -247,8 +216,12 @@ h1 {
     font-size: 70px;
     text-align: center;
     transform: translateY(-250px);
+
+}
+
+.tytoll {
     animation-name: tytol;
-    animation-duration: 2s;
+    animation-duration: 2s;    
 }
 
 .tlo {

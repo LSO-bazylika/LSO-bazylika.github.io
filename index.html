@@ -35,9 +35,6 @@
 </head>
 
 <body>
-<div class="poczatek"> 
-        <img class="poczatekzdj" src="images/logo.jpg" alt="">
-</div>
 
 <link rel="canonical" href="https://lsobazylika.pl/index.html" />
 
@@ -46,7 +43,7 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<nav class="navigation">
+<nav>
     <a class="klikaczglowna" href="index.html">
         <img class="logo" src="images/logo.jpg" alt="">
     </a>
@@ -78,31 +75,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </button>
 </nav>
 
-<script>
-    const mobileNav = document.querySelector('ul');
-    const burgerIcon = document.querySelector('.burger');
-
-    burgerIcon.addEventListener('click', function (event) {
-        event.preventDefault();
-        mobileNav.classList.toggle('active');
-        burgerIcon.classList.toggle('active');
-    });
-
-    // Logika do ukrywania div .poczatek
-    const poczatekDiv = document.querySelector('.poczatek');
-    if (localStorage.getItem('poczatekDisplayed') !== 'true') {
-        // Jeśli div nie był jeszcze wyświetlany
-        poczatekDiv.style.display = 'flex'; // lub 'block', zależnie od stylów
-        localStorage.setItem('poczatekDisplayed', 'true'); // Zapisz informację w localStorage
-    } else {
-        // Jeśli div był już wyświetlany, ukryj go
-        poczatekDiv.style.display = 'none';
-    }
-</script>
 
 <div class=zdj>
-    <h1>Liturgiczna Służba Ołtarza</h1>
-    <p class="tlo">Awaria</p>
+    <h1 class="tytoll">Liturgiczna Służba Ołtarza</h1>
+    <p class="tlo">Przy Parafii Narodzenia Najświętszej Marii Panny w Gorlicach</p>
 </div>
 
 <br><br><br><br><br><br><br>
@@ -145,42 +121,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a> 
         <a href="zmiany.html">
             <p class="lso">Księga Zmian</p>
-        </a>
+            </a>
     </div>
     
     <!-- Sekcja 2 -->
     <div class="footer-section">
-        <p class="footer-header">Dla Ministrantów</p>
-        <ul>
-            <li><a href="regulamin.html">Regulamin</a></li>
-            <li><a href="punkty-ministranci.html">Punkty</a></li>
-            <li><a href="sluzenie-ministranci.html">Służenie</a></li>
-            <li><a href="Modlitwy.html">Modlitwy</a></li>
-        </ul>
+        <h3>Parafia</h3>
+        <a class="znak" href="https://www.facebook.com/lsobazylikagorlice" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
     </div>
     
     <!-- Sekcja 3 -->
     <div class="footer-section">
-        <p class="footer-header">Dla Lektorów</p>
-        <ul>
-            <li><a href="regulamin.html">Regulamin</a></li>
-            <li><a href="punkty-lektorzy.html">Punkty</a></li>
-            <li><a href="sluzenie-lektorzy.html">Służenie</a></li>
-            <li><a href="Modlitwy.html">Modlitwy</a></li>
-        </ul>
-    </div>
-    
-    <!-- Sekcja 4 -->
-    <div class="footer-section">
-        <p class="footer-header">Informacje</p>
-        <ul>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="aktualnosci.html">Aktualności</a></li>
-            <li><a href="zmiany.html">Księga Zmian</a></li>
-            <li><a href="Patroni.html">Patroni</a></li>
-        </ul>
+        <h3>Diecezja</h3>
+        <a class="znak" href="https://www.instagram.com/lso_rzeszow/?hl=pl" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="znak" href="https://www.facebook.com/lsorzeszow" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a class="znak" href="https://lso.rzeszow.pl" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-chrome"></i>
+        </a>
     </div>
 </footer>
 
+
+
+    
 </body>
 </html>
