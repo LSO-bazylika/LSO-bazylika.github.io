@@ -76,6 +76,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </nav>
 
 
+<script>
+    const mobileNav = document.querySelector('ul');
+    const burgerIcon = document.querySelector('.burger');
+
+    burgerIcon.addEventListener('click', function (event) {
+        event.preventDefault();
+        mobileNav.classList.toggle('active');
+        burgerIcon.classList.toggle('active');
+    });
+</script>
+
+
 <div class=zdj>
     <h1 class="tytoll">Liturgiczna Służba Ołtarza</h1>
     <p class="tlo">Przy Parafii Narodzenia Najświętszej Marii Panny w Gorlicach</p>
