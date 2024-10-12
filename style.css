@@ -1,4 +1,20 @@
-
+@keyframes tytol {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes tytol2 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
 
 /* Ogólne */
 body {
@@ -12,6 +28,29 @@ body {
 html {
     font-size: 10px;
     font-family: "Roboto", sans-serif;
+}
+
+.poczatek {
+    z-index: 100000;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    background-color: #a4a3a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: tytol2;
+    animation-duration: 3s;
+    
+}
+
+.poczatekzdj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    
 }
 
 /* Menu */
@@ -199,12 +238,16 @@ h1 {
     font-size: 70px;
     text-align: center;
     transform: translateY(-250px);
+    animation-name: tytol;
+    animation-duration: 2s;
 }
 
 .tlo {
     font-size: 35px;
     text-align: center;
     transform: translateY(-290px);
+    animation-name: tytol;
+    animation-duration: 2s;
 }
 
 
@@ -256,14 +299,20 @@ h1 {
 }
 .jedenklik {
     flex: 1;
+    animation-name: tytol;
+    animation-duration: 2s;
 }
 
 .dwaklik {
     flex: 1;
+    animation-name: tytol;
+    animation-duration: 2s;
 }
 
 .trzyklik {
     flex: 1;
+    animation-name: tytol;
+    animation-duration: 2s;
 }
 
 .photo9 {
