@@ -10,10 +10,11 @@
 @keyframes tytol2 {
     from {
         opacity: 1;
+        transform: translateY(0);
     }
     to {
-        opacity: 0;
-        display: none;
+        opacity: 1;
+        transform: translateY(-100%);
     }
 }
 
@@ -35,14 +36,14 @@ html {
     z-index: 100000;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     background-color: #a4a3a3;
     display: flex;
     align-items: center;
     justify-content: center;
-    animation-name: tytol2;
-    animation-duration: 5s;
+    animation: tytol2 2s forwards;
+    animation-delay: 2s;
     
 }
 
@@ -77,8 +78,8 @@ nav {
 }
 .navigation {
     opacity: 0;
-    animation: tytol 6s forwards;
-    animation-delay: 1s;
+    animation: tytol 2s forwards;
+    animation-delay: 3s;
 }
 
 ul {
