@@ -737,3 +737,8 @@ text-align: justify;
 .test {
     z-index: 3;
 }
+
+td {
+    text-align: center; 
+            vertical-align: middle;
+}
